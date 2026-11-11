@@ -1,0 +1,40 @@
+{
+  "feeds": [
+    {
+      "key": "association",
+      "publisher_id": "association.example",
+      "urls": [
+        "https://association.example/feed.atom"
+      ],
+      "migrated_from": []
+    },
+    {
+      "key": "city",
+      "publisher_id": "city.example",
+      "urls": [
+        "https://city.example/feed.atom"
+      ],
+      "migrated_from": []
+    },
+    {
+      "key": "wire",
+      "publisher_id": "wire.example",
+      "urls": [
+        "https://wire.example/feed.atom"
+      ],
+      "migrated_from": []
+    }
+  ],
+  "id_reuse": {
+    "mode": "split",
+    "continuity_evidence": []
+  },
+  "relations": {
+    "min_evidence": "canonical-link",
+    "accepted_evidence": [
+      "canonical-link",
+      "configured-evidence"
+    ],
+    "hints": []
+  }
+}

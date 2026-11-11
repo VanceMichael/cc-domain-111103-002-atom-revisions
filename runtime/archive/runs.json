@@ -1,0 +1,192 @@
+[
+  {
+    "run_id": 1,
+    "observed_at": "2026-11-09T10:00:00Z",
+    "feeds": [
+      {
+        "feed_key": "association",
+        "publisher_id": "association.example",
+        "url": "https://association.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-09T10:00:00Z",
+        "detail": "1 entries / 0 tombstones",
+        "etag": "assoc-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:00:00 GMT"
+      },
+      {
+        "feed_key": "city",
+        "publisher_id": "city.example",
+        "url": "https://city.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-09T10:00:00Z",
+        "detail": "1 entries / 0 tombstones",
+        "etag": "city-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:12:00 GMT"
+      },
+      {
+        "feed_key": "wire",
+        "publisher_id": "wire.example",
+        "url": "https://wire.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-09T10:00:00Z",
+        "detail": "1 entries / 0 tombstones",
+        "etag": "wire-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:05:00 GMT"
+      }
+    ],
+    "relation_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "run_id": 2,
+    "observed_at": "2026-11-10T10:00:00Z",
+    "feeds": [
+      {
+        "feed_key": "association",
+        "publisher_id": "association.example",
+        "url": "https://association.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-10T10:00:00Z",
+        "detail": "1 entries / 1 tombstones",
+        "etag": "assoc-v2",
+        "last_modified": "Tue, 10 Nov 2026 09:00:00 GMT"
+      },
+      {
+        "feed_key": "city",
+        "publisher_id": "city.example",
+        "url": "https://city.example/feed.atom",
+        "status": "not_modified",
+        "observed_at": "2026-11-10T10:00:00Z",
+        "detail": "条件请求确认内容未变",
+        "etag": "city-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:12:00 GMT"
+      },
+      {
+        "feed_key": "wire",
+        "publisher_id": "wire.example",
+        "url": "https://wire.example/feed.atom",
+        "status": "failed",
+        "observed_at": "2026-11-10T10:00:00Z",
+        "detail": "simulated connection refused",
+        "etag": null,
+        "last_modified": null
+      }
+    ],
+    "relation_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "run_id": 3,
+    "observed_at": "2026-11-11T10:00:00Z",
+    "feeds": [
+      {
+        "feed_key": "association",
+        "publisher_id": "association.example",
+        "url": "https://association.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-11T10:00:00Z",
+        "detail": "2 entries / 0 tombstones",
+        "etag": "assoc-v3",
+        "last_modified": "Wed, 11 Nov 2026 09:00:00 GMT"
+      },
+      {
+        "feed_key": "city",
+        "publisher_id": "city.example",
+        "url": "https://city.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-11T10:00:00Z",
+        "detail": "1 entries / 0 tombstones",
+        "etag": "city-v2",
+        "last_modified": "Wed, 11 Nov 2026 09:05:00 GMT"
+      },
+      {
+        "feed_key": "wire",
+        "publisher_id": "wire.example",
+        "url": "https://wire.example/feed.atom",
+        "status": "not_modified",
+        "observed_at": "2026-11-11T10:00:00Z",
+        "detail": "条件请求确认内容未变",
+        "etag": "wire-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:05:00 GMT"
+      }
+    ],
+    "relation_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "run_id": 4,
+    "observed_at": "2026-11-11T11:00:00Z",
+    "feeds": [
+      {
+        "feed_key": "association",
+        "publisher_id": "association.example",
+        "url": "https://association.example/feed.atom",
+        "status": "not_modified_no_cache",
+        "observed_at": "2026-11-11T11:00:00Z",
+        "detail": "收到 304 但本地无可对应缓存版本，未复用任何内容",
+        "etag": "assoc-v3",
+        "last_modified": null
+      },
+      {
+        "feed_key": "city",
+        "publisher_id": "city.example",
+        "url": "https://city.example/feed.atom",
+        "status": "not_modified_no_cache",
+        "observed_at": "2026-11-11T11:00:00Z",
+        "detail": "收到 304 但本地无可对应缓存版本，未复用任何内容",
+        "etag": "city-stale-unknown",
+        "last_modified": null
+      },
+      {
+        "feed_key": "wire",
+        "publisher_id": "wire.example",
+        "url": "https://wire.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-11T11:00:00Z",
+        "detail": "1 entries / 0 tombstones",
+        "etag": "wire-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:05:00 GMT"
+      }
+    ],
+    "relation_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "run_id": 5,
+    "observed_at": "2026-11-11T15:00:00Z",
+    "feeds": [
+      {
+        "feed_key": "association",
+        "publisher_id": "association.example",
+        "url": "https://association.example/feed.atom",
+        "status": "ok",
+        "observed_at": "2026-11-11T15:00:00Z",
+        "detail": "2 entries / 1 tombstones",
+        "etag": "assoc-v4",
+        "last_modified": "Wed, 11 Nov 2026 14:00:00 GMT"
+      },
+      {
+        "feed_key": "city",
+        "publisher_id": "city.example",
+        "url": "https://city.example/feed.atom",
+        "status": "not_modified_no_cache",
+        "observed_at": "2026-11-11T15:00:00Z",
+        "detail": "收到 304 但本地无可对应缓存版本，未复用任何内容",
+        "etag": "city-v2",
+        "last_modified": null
+      },
+      {
+        "feed_key": "wire",
+        "publisher_id": "wire.example",
+        "url": "https://wire.example/feed.atom",
+        "status": "not_modified",
+        "observed_at": "2026-11-11T15:00:00Z",
+        "detail": "条件请求确认内容未变",
+        "etag": "wire-v1",
+        "last_modified": "Mon, 09 Nov 2026 09:05:00 GMT"
+      }
+    ],
+    "relation_count": 0,
+    "candidate_count": 0
+  }
+]

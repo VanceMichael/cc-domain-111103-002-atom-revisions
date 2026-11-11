@@ -1,0 +1,16 @@
+{
+  "https://association.example/feed.atom": {
+    "http_status": 200,
+    "body_file": "round5/association.xml",
+    "etag": "assoc-v4",
+    "last_modified": "Wed, 11 Nov 2026 14:00:00 GMT"
+  },
+  "https://city.example/feed.atom": {
+    "http_status": 304,
+    "etag": "city-v2"
+  },
+  "https://wire.example/feed.atom": {
+    "http_status": 304,
+    "etag": "wire-v1"
+  }
+}

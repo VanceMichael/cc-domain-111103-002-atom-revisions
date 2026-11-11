@@ -1,0 +1,13 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:association.example:feed</id>
+  <title>虚构行业协会订阅源</title>
+  <updated>2026-11-09T09:00:00Z</updated>
+  <entry>
+    <id>urn:association.example:notice-2026-11</id>
+    <title>虚构产业扶持政策摘要</title>
+    <published>2026-11-09T08:30:00Z</published>
+    <updated>2026-11-09T09:00:00Z</updated>
+    <summary>协会先行发布的摘要：某虚构产业扶持政策的要点概述，原文待补。</summary>
+    <link rel="alternate" href="https://association.example/notice/2026-11" />
+  </entry>
+</feed>

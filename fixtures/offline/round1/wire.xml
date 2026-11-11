@@ -1,0 +1,13 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:wire.example:feed</id>
+  <title>虚构通讯社订阅源</title>
+  <updated>2026-11-09T09:05:00Z</updated>
+  <entry>
+    <id>urn:wire.example:item-7781</id>
+    <title>虚构产业扶持政策原文播发</title>
+    <published>2026-11-09T08:40:00Z</published>
+    <updated>2026-11-09T09:05:00Z</updated>
+    <content type="text">通讯社播发的虚构政策原文全文，含虚构扶持条款与适用范围说明。</content>
+    <link rel="alternate" href="https://wire.example/item/7781" />
+  </entry>
+</feed>

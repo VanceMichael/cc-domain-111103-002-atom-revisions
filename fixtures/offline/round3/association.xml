@@ -1,0 +1,22 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:association.example:feed</id>
+  <title>虚构行业协会订阅源</title>
+  <updated>2026-11-11T09:00:00Z</updated>
+  <entry>
+    <id>urn:association.example:notice-2026-11</id>
+    <title>虚构产业扶持政策（全文修订）</title>
+    <published>2026-11-09T08:30:00Z</published>
+    <updated>2026-11-10T09:00:00Z</updated>
+    <summary>协会补齐原文后的摘要：虚构产业扶持政策全文已发布。</summary>
+    <content type="text">补发的虚构政策原文全文：扶持对象、申报条件、虚构资金安排与时间表。</content>
+    <link rel="alternate" href="https://association.example/notice/2026-11" />
+  </entry>
+  <entry>
+    <id>urn:association.example:notice-2026-10</id>
+    <title>撤回后恢复的虚构通知</title>
+    <published>2026-11-08T10:00:00Z</published>
+    <updated>2026-11-11T08:45:00Z</updated>
+    <summary>曾被 tombstone 撤回、经核实后重新发布的虚构通知。</summary>
+    <link rel="alternate" href="https://association.example/notice/2026-10" />
+  </entry>
+</feed>

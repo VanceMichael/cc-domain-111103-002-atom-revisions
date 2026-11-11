@@ -1,0 +1,20 @@
+{
+  "https://association.example/feed.atom": {
+    "http_status": 200,
+    "body_file": "round1/association.xml",
+    "etag": "assoc-v1",
+    "last_modified": "Mon, 09 Nov 2026 09:00:00 GMT"
+  },
+  "https://city.example/feed.atom": {
+    "http_status": 200,
+    "body_file": "round1/city.xml",
+    "etag": "city-v1",
+    "last_modified": "Mon, 09 Nov 2026 09:12:00 GMT"
+  },
+  "https://wire.example/feed.atom": {
+    "http_status": 200,
+    "body_file": "round1/wire.xml",
+    "etag": "wire-v1",
+    "last_modified": "Mon, 09 Nov 2026 09:05:00 GMT"
+  }
+}

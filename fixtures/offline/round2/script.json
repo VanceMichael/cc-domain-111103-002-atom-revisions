@@ -1,0 +1,15 @@
+{
+  "https://association.example/feed.atom": {
+    "http_status": 200,
+    "body_file": "round2/association.xml",
+    "etag": "assoc-v2",
+    "last_modified": "Tue, 10 Nov 2026 09:00:00 GMT"
+  },
+  "https://city.example/feed.atom": {
+    "http_status": 304,
+    "etag": "city-v1"
+  },
+  "https://wire.example/feed.atom": {
+    "error": "simulated connection refused"
+  }
+}

@@ -1,0 +1,14 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:city.example:feed</id>
+  <title>虚构地方机构订阅源</title>
+  <updated>2026-11-11T09:05:00Z</updated>
+  <entry>
+    <id>urn:city.example:bulletin-305</id>
+    <title>虚构产业扶持政策摘要（转载修订版）</title>
+    <published>2026-11-09T09:10:00Z</published>
+    <updated>2026-11-11T09:05:00Z</updated>
+    <summary>地方机构修订后的转载摘要，仍以本机构 ID 发布。</summary>
+    <link rel="canonical" href="https://wire.example/item/7781" />
+    <link rel="alternate" href="https://city.example/bulletin/305" />
+  </entry>
+</feed>
