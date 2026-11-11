@@ -1,0 +1,8 @@
+{
+  "feeds": [
+    "association",
+    "city",
+    "wire"
+  ],
+  "validator": "synthetic-v1"
+}
