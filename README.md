@@ -4,7 +4,7 @@
 
 ## 来源材料
 
-Feed responses are stored separately by publisher. Entry identifiers are scoped to their feed. A deleted-entry element is a publisher tombstone and is not an Atom entry. The fixture files contain no live endpoints; the reader parses entry basics but does not retain revisions or infer syndication relationships.
+三个 XML 文件分别来自协会、地方机构和通讯社的合成 Atom 订阅源。entry 的 id 属于各自发布者命名空间，deleted-entry 表示发布者声明的撤回。feeds.json 列出本地来源，读取器当前返回条目身份、标题和更新时间。
 
 上面的样例用于说明来源字段和当前读取边界。项目按原始来源保存材料；同一来源的版本变化和不同来源的同名记录需要分别核对。示例文件只用于本地调试，不代表真实企业、机构或设备数据。
 
